@@ -1,0 +1,123 @@
+.hero1Container {
+    /* background-color: blue; */
+    background-color: white;
+    margin-left:8rem;   
+    margin-right:8rem;
+    
+    /* width:105rem;
+    
+    height200rem; */
+    /* background-image: url('./assets/images/uiuxdesign.jpg') */
+}
+
+.hero1Bar {
+    /* background-color: yellow; */
+    /* margin-left:-3rem;
+    margin-right:-3rem;
+     */
+}
+
+.hero1TopBody {
+    /* background-color: red; */
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: -3rem;
+    margin-bottom:0rem;
+    
+
+}
+
+.hero1LeftBody {
+    /* background-color: white; */
+    background-color: white;
+    font-family: Baikal, sans-serif;
+    /* width:85rem;     */
+    padding-left: 7rem;
+    color: black;
+    display: flex;
+    align-items:left;
+    justify-content:center;
+    flex-direction: column;
+    
+    
+    
+    
+}
+
+.hero1LeftBody h2 {
+    
+    font-size: 28px;
+    line-height: 100px;
+    padding-top:3rem;
+    
+    
+    /* display: flex;
+    align-items: center;
+    justify-content:center; 
+    flex-direction: column;
+    align-content:flex-start; */
+    
+
+}
+
+.hero1LeftBody p {
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom:7rem;    
+    
+    
+
+}
+
+.hero1RightBody {
+    background-color:white; 
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    /* flex:15%;    */
+    font-family: Baikal, sans-serif;
+    height:20.4rem;
+    padding-top:4rem;
+    padding-bottom:2rem;
+    
+}
+.hero1RightBody a{
+    text-decoration: none;
+
+}
+.approachTextBox{
+
+    background-color: white;
+    font-size: 18px;
+    width:25rem;
+    font-weight:550;
+    color:black;
+    
+}
+
+.hero1BottomBody {
+    /* background-color: coral; */
+    
+}
+    
+
+
+.hero1Image {}
+
+.hero1Image img {
+    
+}
+   
+
+.text-overlay {
+    background-color: pink;
+    height:18rem;
+    width:70rem; 
+}
+
+.text-overlay .uiux {}
+
+.text-overlay p {
+    font-size:20px;
+}

@@ -1,0 +1,92 @@
+.heroContainer {
+    /* background-color:aqua; */
+    background-image: url('./assets/images/aboutus_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    
+    /* margin-left:20rem;
+    margin-top:2.4rem; */
+}
+.heroContainer image{
+    
+}
+
+.heroBar {
+    /* background-color: blue; */
+}
+
+.heroBody {
+    /* background-color: pink; */
+    font-family: Baikal, sans-serif;
+}
+
+
+
+.heroTopBody {
+    /* background-color: red; */
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 250px;
+}
+
+.heroTopBody h5 {
+    font-size: 18px;
+
+
+}
+
+.heroTopBody h1 {
+    font-size: 60px;
+
+}
+
+.heroTopBody p {
+    font-size: 16px;
+    line-height: 22px;
+    /* width:62%; */
+
+}
+
+.heroBottomBody {
+    /* background-color: green; */
+    display: flex;
+    font-family: Baikal, sans-serif;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    line-height: 18px;
+}
+
+.heroBottomBody a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.textBox:hover {
+    background-color: #ff4c65; 
+}
+
+.textBox {
+
+    width: 150px;
+    /* Width of the box */
+    padding: 10px;
+    /* Inner spacing around the text */
+    /* margin: 50px auto; Center the box */
+    /* border: 2px solid #000; Solid border */
+    border-radius: 1px;
+    /* 5px for Rounded corners */
+    background-color:#333333;/* Light gray background */
+        /* font-family: Arial, sans-serif; Font style */
+        color: #333333; /*Text color*/
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+    text-align: center;
+    /* Center-align text */
+}

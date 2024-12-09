@@ -1,0 +1,99 @@
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+@media (width <=576px) {
+
+    body {
+        background-color: #000000;
+        /* font-size: 1.4rem; */
+    }
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4  
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0rem 1rem;
+    }
+
+    .contactBar {
+        /* background-color: #ffdd00; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .smBar {
+        /* background-color: #fe2965; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logoBar img {
+        height: 4rem;
+    }
+
+    .linksBar {
+        /* background-color: #f70a65; */
+        display: none;
+    }
+
+    .heroJumbotron {
+        /* background-color: #f5dd08; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 0rem;
+    }
+
+    .heroIcons {
+        background-color: #ffdd00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 3rem 0rem;
+    }
+
+    .highlights {
+        background-color: #ff0066;
+        gap: 1.5rem;
+    }
+
+    .years,
+    .placements,
+    .clients,
+    .Business {
+        padding: 2.5rem 0rem;
+    }
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+@media (width >=577px) and (width <=768px) {
+    /* write code here */
+}
+
+
+/* Large devices (Laptops, upto 992px and above) */
+@media (width >=769px) and (width <=992px) {
+    /* write code here */
+}
+
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+@media (width >=993px) and (width <=1200px) {
+    /* write code here */
+}
+
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+@media (width >=1200px) {
+    /* write code here */
+}

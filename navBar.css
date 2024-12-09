@@ -1,0 +1,107 @@
+header {
+    background-color: #333333;
+        
+    /* width: 150%;
+    margin-left: -20rem;  */
+
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.navContainer {
+    /* background-color: red; */
+    height: 7rem;
+    padding:-2rem;
+        /* width: 150%;
+    margin-right: 75rem; */
+
+    /* display:flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.navBar {
+    /* background-color: blue; */
+
+    height: 7rem;
+    padding-top:1.2rem;
+    /* width: 150%;
+    margin-left: -20rem; */
+
+    /* display:flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.navBody {
+    /* background-color: yellow;
+    /* margin-top: -2.5rem; */
+    padding-right: 5rem;
+    padding-left: 6rem;
+}
+
+.navBarLeft {
+    /* background-color: pink; */
+    font-family: Baikal, sans-serif;
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: -2.5rem;
+}
+
+.navBarLeft li {
+    list-style-type: none;
+}
+
+.navBarLeft a {}
+
+.navBarLeft i {
+    color: white;
+    font-size: 26px;
+    padding:0rem;   
+    
+    
+}
+
+.navBarMiddle {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:-1rem;
+
+}
+
+.navBarMiddle img {
+    width: 13rem;
+    height: 5rem;
+    margin-top: -1.5rem;
+}
+
+.navBarRight {
+    /* background-color: lightblue; */
+    font-family: Baikal, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 1rem;
+    font-weight: 700;
+    padding-right: 15   rem;
+}
+
+.navBarRight li {
+    list-style-type: none;
+}
+
+.navBarRight a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    /* font-weight: 700; */
+}
+
+.navBarRight i {
+    font-size: 18px;
+}
